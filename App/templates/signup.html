@@ -1,0 +1,57 @@
+<html>
+	<head>
+                <title>App</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style1.css') }}">
+        </head>
+
+	<body>
+                <header>
+                        <h1><a href="/"><span>MY App</span></a></h1>
+                        <nav>
+                                <ul>
+                                        <li><a href="/login">Login</a></li>
+                                        <li><a href="/about">About</a></li>
+                                        <li><a href="/contacts">Contacts</a></li>
+                                        <li><a href="/services">Services</a></li>
+                                </ul>
+                        </nav>
+                </header>
+
+                <section>
+			<form>
+				<div>
+					<label>First Name</label>
+					<input type="text">
+				</div>
+				<div>
+					<label>Last Name</label>
+					<input type="text">
+				</div>
+				<div>
+					<label>Username</label>
+					<input type="text">
+				</div>
+				<div>
+                                        <label>Email</label>
+                                        <input type="text">
+                                </div>
+				<div>
+                                        <label>Password</label>
+                                        <input type="password">
+                                </div>
+				<div>
+				<button>Submit</button>
+				</div>
+			</form>
+			<div>
+				<h5>Already have an account?</h5>
+				<h3><a href="/login"><span>Login</span></a></h3>
+			</div>
+                </section>
+                <footer>
+                        <h4><span>Copyright &copy; 2019<span></h4>
+                        <h4><span>All Rights Reserved<span></h4>
+                </footer>
+        </body>
+
+</html>

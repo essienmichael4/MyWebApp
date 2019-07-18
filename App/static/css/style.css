@@ -1,0 +1,25 @@
+body{
+	padding: 0;
+	margin: 0;}
+
+header{
+	overflow: hidden;
+	background-color: #ebebeb;}
+
+header hi span{
+	float: left;
+	padding-left: 60px;}
+
+header nav{
+	margin-bottom: 40px;
+	float: right;}
+
+header li{
+	margin-right: 60px;
+	list-style: none;
+	display: inline;
+	margin-right: 40px;}
+
+header a{
+	text-decoration: none;
+	color:#000000}
