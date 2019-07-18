@@ -1,25 +1,48 @@
 body{
-	margin: 0;
-	padding: 0;}
+	height: 100%;
+	width: 100%;}
 
 header{
-	overflow: hidden;
-	background-color: #ebebeb;}
+        overflow: hidden;
+        background-color: #ebebeb;}
 
-header h1{
-	float: left;}
+header h1 a span{
+        float: left;
+        margin-left: 25px;}
 
 header nav{
-	float: right;}
+        float: right;}
 
 header li{
-	margin-right: 40px;
-	list-style: none;
-	display: inline;}
+        margin-right: 30px;
+        display: inline;}
 
 header a{
-	text-decoration: none;
-	color:#000000}}
-	
+        color: #000000;
+        text-decoration: none;}
+
+section .styleinput{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: solid black 1px;}
+
+section button{
+	background-color: #ffa500;
+	width:150px;
+	height: 30px;}
+
+section{ 
+        text-align: center;}
+
+section a{ 
+        text-decoration: none; 
+        color: #000000;}
+
+
+
 footer{
-back-groundcolor: #ebebeb;}
+        height: 70px;
+        text-align: center;
+        background-color: #ebebeb;}
+
